@@ -28,7 +28,7 @@ export default function ImageGallery({images, altPrefix = 'Gallery Image', bgCol
                 style = {{transform: `translateX(-${currIndex*100}%)`}}
                 >
                 
-                {images.map((image, index)=>(
+                {images.map((_, index)=>(
                     <img 
                         key = {index}
                         src = {new URL(`../assets/images/${images[index]}`, import.meta.url).href} 
@@ -43,7 +43,7 @@ export default function ImageGallery({images, altPrefix = 'Gallery Image', bgCol
                 
 
             <div className = 'dots'>
-                {images.map((image, index)=>(
+                {images.map((_, index)=>(
                     <button
                         key = {index}
                         className={`dot ${index===currIndex? 'active' : ''}`}

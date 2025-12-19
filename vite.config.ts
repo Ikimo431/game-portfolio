@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/GamePortFolio2025/',
+  base: '/game-portfolio/',
 })
