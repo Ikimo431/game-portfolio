@@ -1,0 +1,29 @@
+#aboutme{
+    display: flex;
+    padding-left: 2rem;
+    background-color: #334b80;
+    h2 {
+        font-size: 3rem;
+    }
+    p, a{
+        font-size: 2rem;
+        color: white;
+    }
+   
+    
+}
+.about{
+    
+}
+#links{
+    background-color: #7995d4;
+    border-radius: .25rem;
+    margin-right: 2rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    li {
+        margin-top: .5rem;
+        color:
+    }
+}

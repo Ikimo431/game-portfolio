@@ -6,6 +6,22 @@ function App() {
   const bulletpoints = ["Made using gamemaker", "Card based combat with fluid animation", "Sprites made using LibreSprite", "Original music made with LMMS"]
   return (
     <div className='main'>
+        <section id="aboutme">
+          <div className='about'>
+            <h2>Owen Johnston</h2>
+          <p>I am a senior studying computer science at Carroll University, with minors in math and art. Programming is my strongsuit, 
+            and I chose an art minor to broaden my skillset and improve one of my weak points in game development. This portfolio contains just my game work, for  
+            more specific information on my skillsets and to see my non-game projects, view my full portfolio <a href='https://ikimo431.github.io/Portfolio-Site/index.html'>here.</a>
+          </p>
+          </div>
+          
+          <ul id="links">
+            <li><a>Itch.io</a></li>
+            <li><a>Github</a></li>
+            <li><a>LinkedIn</a></li>
+            <li>Contact Me: owenj120@gmail.com</li>
+          </ul>
+        </section>
         <GameInfo title="Death's Janitor" description="Play as death's janitor in this deckbuilding RPG. Gain new cards and grow stronger as 
                         you explore the crypts and clean up the undead." 
         images={images} bulletpoints={bulletpoints} link="https://ikimo431.itch.io/deaths-janitor"
