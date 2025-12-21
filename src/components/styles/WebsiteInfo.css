@@ -10,10 +10,10 @@
     flex-direction: column;
     width: 100%;
     justify-content: left;
-    gap: 10%;
+    gap: 1rem;
     align-items: center;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
 }
 .siteHeader {
     display: flex; 

@@ -24,6 +24,16 @@
     padding-right: 3rem;
     li {
         margin-top: .5rem;
-        color:
+    
     }
+}
+
+.section-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+.slider-parent{
+    overflow-x: hidden
+    
 }
